@@ -1,4 +1,4 @@
-name: record_example
+name: record_ohos_example
 description: Demonstrates how to use the record plugin.
 version: 1.0.0
 
@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  record:
+  record_ohos:
     path: ../
 
 dev_dependencies:

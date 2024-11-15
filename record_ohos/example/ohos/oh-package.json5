@@ -1,0 +1,22 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "record_ohos_example",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "overrides": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "record_ohos": "file:./har/record_ohos.har",
+    "@ohos/flutter_module": "file:./entry",
+    "path_provider_ohos": "file:./har/path_provider_ohos.har",
+    "audioplayers_ohos": "file:./har/audioplayers_ohos.har"
+  }
+}
