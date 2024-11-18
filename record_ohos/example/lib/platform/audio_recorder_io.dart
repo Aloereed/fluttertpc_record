@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
-import 'package:record/record.dart';
+import 'package:record_ohos/record.dart';
 
 mixin AudioRecorderMixin {
   Future<void> recordFile(AudioRecorder recorder, RecordConfig config) async {
