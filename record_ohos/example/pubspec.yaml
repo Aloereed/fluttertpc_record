@@ -1,4 +1,4 @@
-name: record_example
+name: record_ohos_example
 description: Demonstrates how to use the record plugin.
 version: 1.0.0
 
@@ -7,8 +7,8 @@ version: 1.0.0
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ^3.4.0
-  flutter: ">=3.16.0"
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   path: ^1.8.0
@@ -20,16 +20,15 @@ dependencies:
     git:
       url: https://gitee.com/openharmony-sig/flutter_audioplayers.git
       path: packages/audioplayers
-  web: ^0.5.1
 
   flutter:
     sdk: flutter
 
-  record:
+  record_ohos:
     path: ../
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^2.0.3
 
 # The following section is specific to Flutter.
 flutter:
