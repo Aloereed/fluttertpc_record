@@ -55,7 +55,7 @@ __All audio output is with 16bits depth.__
 ## Usage
 
 ```dart
-import 'package:record/record.dart';
+import 'package:record/record_ohos.dart';
 
 final record = AudioRecorder();
 

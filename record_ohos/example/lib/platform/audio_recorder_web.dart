@@ -3,7 +3,7 @@
 import 'dart:html' as html;
 import 'dart:typed_data';
 
-import 'package:record_ohos/record.dart';
+import 'package:record_ohos/record_ohos.dart';
 
 mixin AudioRecorderMixin {
   Future<void> recordFile(AudioRecorder recorder, RecordConfig config) {

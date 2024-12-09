@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:record_ohos/record.dart';
+import 'package:record_ohos/record_ohos.dart';
 
 import 'platform/audio_recorder_platform.dart';
 

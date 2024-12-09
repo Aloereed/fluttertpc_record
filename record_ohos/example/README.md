@@ -13,7 +13,7 @@ dependencies:
 ## Usage
 
 ```dart
-import 'package:record/record.dart';
+import 'package:record/record_ohos.dart';
 
 final record = AudioRecorder();
 
